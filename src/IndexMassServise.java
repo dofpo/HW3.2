@@ -1,6 +1,6 @@
 public class IndexMassServise {
-    public double calculate(double mass, double height) {
-        double index = mass/(height*height);
+    public int calculate(double mass, double height) {
+        int index = (int) (mass / (height * height));
         return index;
     }
 }
